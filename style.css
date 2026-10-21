@@ -1,3 +1,14 @@
-h1{
-    background-color: rgb(228, 206, 180);
+body {
+    background-color: rgb(236, 243, 196);
+    color: #20231a;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+body.dark-theme {
+    background-color: #20231f;
+    color: #f1f1e9;
+}
+
+body.dark-theme a {
+    color: #a9d5ff;
 }
